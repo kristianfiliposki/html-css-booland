@@ -8,39 +8,203 @@
     <link rel="stylesheet" href="./css/atomic.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
-<body>
-    <header> 
+<body class="rela">
+    <div id="container relative">
+        <header class="bg-orange z-999 fixed"> 
 
-        <div class="relative">
-            <div class="gender absolute">
-                <span class="c-white">Donna</span>
-                <span class="c-white">Uomo</span>
-                <span class="c-white">Bambini</span>
+            <div class="relative">
+                <div class="gender absolute">
+                    <span class="c-white">Donna</span>
+                    <span class="c-white">Uomo</span>
+                    <span class="c-white">Bambini</span>
+                </div>
+    
+                <div>
+                    <img src="./images-boolando/img/boolean-logo.png" alt="foto" class="absolute" >
+                </div>
+    
+                <div class="tools absolute">
+                    <span><i class="fa-solid fa-user c-white"></i></span>
+                    <span><i class="fa-solid fa-heart c-white"></i></span>
+                    <span><i class="fa-solid fa-shop c-white"></i></span>
+                </div>
             </div>
+                    
+        </header >
+    
+        <main>
+            <!--Riga A-->
+            <section>
+                <div id="rigaA" class="absolute">
+                    <div id="container-rigaA" class="relative">
+                        <!--casellaA-->
+                        <div class="bg-lightblue absolute casella absolute" id="casellaA">
+                            <div class="relative">
+                                <i class="fa-solid fa-heart absolute p-4 bg-white"></i>
+                                <div class="sconti bg-red w-20 c-white absolute p-4">-50%</div>
+                                <div class="sostenibilità bg-green w-40 c-white absolute p-4">sostenibilità</div> 
+                            </div>
+                            
+                            <!--prices-->
+                            <div class="prices absolute">
+                                <div>Levis</div>
+                                <div class="clothes">RELAXED FIT TEE UNISEX</div>
+                                <div>
+                                    <span>22€</span>
+                                    <span class="c-red p-2 sale-prices f-14">18€</span>
+                                </div>
+                            </div>
+                            <!--prices-->
+                        </div>
+                        <!--casellaA-->
+                       
 
-            <div>
-                <img src="./images-boolando/img/boolean-logo.png" alt="foto" class="absolute" >
-            </div>
 
-            <div class="tools absolute">
-                <span><i class="fa-solid fa-user c-white"></i></span>
-                <span><i class="fa-solid fa-heart c-white"></i></span>
-                <span><i class="fa-solid fa-shop c-white"></i></span>
-            </div>
-        </div>
+                        <!--casellaB-->
+                        <div class="bg-pink absolute casella" id="casellaB">
+                            <div class="relative">
+                                <i class="fa-solid fa-heart absolute p-4 bg-white"></i>
+                                <div class="sconti bg-red w-20 c-white absolute p-4">-30%</div>
+                            </div>
+                            
+                            <!--prices-->
+                            <div class="prices absolute">
+                                <div>GUESS</div>
+                                <div class="clothes">ROSES TEE</div>
+                                <div>
+                                    <span>22€</span>
+                                    <span class="c-red p-2 sale-prices f-14">12€</span>
+                                </div>
+                            </div>
+                            <!--prices-->
+                        </div>
+                        <!--casellaB-->
+
+
+
+                        <!--casellaC-->
+                        <div class="sostenibilità bg-gree w-30 c-white absolute">sostenibilità</div>
+                        <div class="bg-violet absolute casella" id="casellaC">
+                            
+                            <div class="relative">
+                                <i class="fa-solid fa-heart absolute p-8 bg-white"></i>
+                                <div class="sconti bg-red w-20 c-white absolute p-4">-30%</div>
+                            </div>
+                            <!--prices-->
+                            <div class="prices absolute">
+                                <div>Come zucchero filato</div>
+                                <div class="clothes">VOGLIA DI COLORI PASTELLO</div>
+                                <div>
+                                    <span>22€</span>
+                                    <span class="c-red p-2 sale-prices f-14">12€</span>
+                                </div>
+                            </div>
+                            <!--prices-->
+                        </div> 
+                        <!--casellaC-->  
+                    </div>
+                </div>
+            </section>
+            <!--Fine riga A-->
+
+
+            <!--Riga B-->
+            <section>
+
                 
-    </header>
+                <div id="rigaB" class="absolute">
+                    <div id="container-rigaA">
+                        <!--casella D-->
+                        <div class="bg-lightblue absolute casella-2" id="casellaD">
+                            <i class="fa-solid fa-heart absolute p-8 bg-white"></i>
+                            <div class="sconti bg-red w-20 c-white absolute p-4">-50%</div>
+                            <div class="sostenibilità bg-green w-40 c-white absolute p-4">sostenibilità</div>
+                            <!--prices-->
+                            <div class="prices absolute">
+                                <div>Levis</div>
+                                <div class="clothes">TEE UNISEX</div>
+                                <div>
+                                    <span>22€</span>
+                                    <span class="c-red p-2 sale-prices">19€</span>
+                                </div>
+                            <!--prices-->
+                            </div>
+                        </div>
+                        <!--casella D-->
 
-    <main>
-        <div id="rigaA" class="absolute">
-            <div id="container-rigaA">
-                <div class="bg-lightblue absolute foto" id="fotoA"><img src="./img/1.webp" alt="foto"></div>
-                <div class="bg-pink absolute foto" id="fotoB"><img src="./" alt=""></div>
-                <div class="bg-violet absolute foto" id="fotoC"><img src="./" alt=""></div>    
+
+                        
+
+                        <!--casella E-->
+                        <div class="bg-pink absolute casella-2" id="casellaE">
+                            <i class="fa-solid fa-heart absolute p-8 bg-white"></i>
+                            <!--prices-->
+                            <div class="prices absolute">
+                                <div>Maya Deluxe</div>
+                                <div class="clothes">STRIPE BODICE</div>
+                                <div>
+                                    <span>22€</span>
+                                    <span class="c-red p-2 sale-prices">21€</span>
+                                </div>
+                            </div>
+                            <!--prices-->
+                        </div>
+                        <!--casella E-->
+
+
+                        
+                        <!--casella F-->
+                        <div class="bg-violet absolute casella-2" id="casellaF">
+                            <i class="fa-solid fa-heart absolute p-8 bg-white"></i>
+                            <div class="sostenibilità bg-green w-40 c-white absolute p-4 " id="last-sostenibilità">sostenibilità</div>
+                        
+                             <!--prices-->
+                            <div class="prices absolute">
+                                <div>Esprit</div>
+                                <div class="clothes">MAGLIONE-BLACK</div>
+                                <div>
+                                   <span>22€</span> 
+                                   <span class="c-red p-2 sale-prices">20€</span>
+                                </div>
+                            </div>   
+                             <!--prices-->
+                        </div> 
+                        <!--casella F-->
+                        
+                    </div>
+                </div>
+            </section>
+            <!--Fine riga B-->
+
+        </main>
+        
+
+        <!--link e diritti-->
+        <footer class="bg-black absolute">
+            <!--diritti-->
+            <div class="c-white f-16 absolute diritti">Boolando s.r.l</div>
+            <div class="absolute diritto">
+                <span class="c-white f-14">Inf. legali</span>
+                <span class="c-white f-14">Inf. privacy</span>
+                <span class="c-white f-14">Diritto d'accesso</span>
             </div>
-        </div>
-    </main>
+            <!--diritti-->
 
-    <footer></footer>
+            <!--social-->
+            <div class="absolute social">
+                <div class="c-white f-14">trovaci anche su:</div>
+                
+                <div>
+                    <i class="fa-brands fa-instagram c-white"></i>
+                    <i class="fa-brands fa-facebook c-white"></i>
+                    <i class="fa-brands fa-pinterest c-white"></i>
+                    <i class="fa-brands fa-youtube c-white"></i>
+                    <i class="fa-brands fa-twitter c-white "></i>
+                </div>
+            </div>
+            <!--fine social-->
+        </footer>
+        <!--fine link e diritti-->
+    </div>
 </body>
 </html>
