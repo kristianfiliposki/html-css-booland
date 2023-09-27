@@ -1,0 +1,16 @@
+header{
+    background-color: orange;
+    min-height: 100px;
+}
+
+.gender{
+    left: 10%;
+    top: 40px;
+    position: absolute;
+}
+
+.relative>div>img{
+    max-height:40px;
+    left: 40%;
+    top: 30px;
+}
