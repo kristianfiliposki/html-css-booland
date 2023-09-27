@@ -15,6 +15,25 @@ header{
     top: 30px;
 }
 
+.tools{
+    left: 90%;
+    top: 40px;
+}
+
+.foto{
+    min-height: 230px;
+    min-width: 150px;
+    top: 30px;
+}
+
 #fotoA{
-    
+    left: 450px;
+}
+
+#fotoB{
+    left:650px;
+}
+
+#fotoC{
+    left:850px;
 }
